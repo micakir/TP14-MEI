@@ -288,7 +288,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 114880709}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -15.53, y: 8.3, z: 0}
+  m_LocalPosition: {x: -15.53, y: 8.16, z: 0}
   m_LocalScale: {x: 1, y: 15, z: 30}
   m_Children: []
   m_Father: {fileID: 0}
@@ -529,6 +529,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293536358}
   m_CullTransparentMesh: 0
+--- !u!4 &466295132 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8301348219256438975, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+    type: 3}
+  m_PrefabInstance: {fileID: 2130386543}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &649272415
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1009,7 @@ GameObject:
   - component: {fileID: 1300985171}
   - component: {fileID: 1300985170}
   m_Layer: 0
-  m_Name: Player
+  m_Name: InteractiveArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1017,11 +1023,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1300985168}
   m_LocalRotation: {x: -0, y: -0.9990214, z: 0.044229638, w: 0}
-  m_LocalPosition: {x: 0.02, y: 0.55225897, z: 1.1364098}
-  m_LocalScale: {x: 1, y: 1.0000257, z: 1.0032653}
+  m_LocalPosition: {x: 0.02, y: 0.06999993, z: 1.26}
+  m_LocalScale: {x: 1, y: 1.0000257, z: 1.0032655}
   m_Children: []
-  m_Father: {fileID: 1519619711}
-  m_RootOrder: 1
+  m_Father: {fileID: 466295132}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1300985170
 Rigidbody:
@@ -1268,12 +1274,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textoContador: {fileID: 293536360}
---- !u!4 &1519619711 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
-    type: 3}
-  m_PrefabInstance: {fileID: 2130386543}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1536479888 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6aec845d6774e734abf79861b41c7a44,
@@ -1293,6 +1293,36 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.02, z: 0.0039242147}
   m_Center: {x: 0, y: 0, z: 0.0018575967}
+--- !u!1 &1553396096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1553396097}
+  m_Layer: 0
+  m_Name: UIManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1553396097
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553396096}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.2, y: 1.5, z: 6.62}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1559311074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1419,6 +1449,36 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2056919874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2056919875}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2056919875
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2056919874}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -4.2, y: 1.5, z: 6.62}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2130386543
 PrefabInstance:
