@@ -1,19 +1,20 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using TMPro;
+﻿using UnityEngine;
 
 public class PickUpObject : MonoBehaviour
 {
-    int contador = 0;
-    public TextMeshProUGUI textoContador;
+    
+    InteractiveArea interactiveArea;
+
+    void Start()
+    {
+        interactiveArea = FindObjectOfType<InteractiveArea>();
+    }
 
     private void OnTriggerEnter(Collider col)
     {
         if (col.CompareTag("Coleccionable"))
         {
-            contador++;
-            textoContador.text = "Score: " + contador;
+            interactiveArea.SumarPunto();
             Destroy(col.gameObject);
         }
     }
