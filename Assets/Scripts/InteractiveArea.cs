@@ -4,7 +4,7 @@ using TMPro;
 public class InteractiveArea : MonoBehaviour
 {
     public TextMeshProUGUI textoContador;
-    public int puntajeMaximo = 6;
+    public int puntajeMaximo = 5;
     int contador = 0;
 
     UImanager uiManager;

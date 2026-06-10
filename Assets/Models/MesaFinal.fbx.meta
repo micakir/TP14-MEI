@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 33ff5afe02741bb47a8ae8850880f4d6
+guid: 0fbfced71d806de4b996b95148c5b704
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Madera
-    2100002: PatasDeMesa
+    2100000: Gris
+    2100002: Gris Oscuro
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
+    4300000: Cube.001
   externalObjects: {}
   materials:
     importMaterials: 1
