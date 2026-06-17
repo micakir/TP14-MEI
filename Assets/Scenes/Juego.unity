@@ -848,8 +848,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.12, y: 0.21999995, z: 0.000000037252896}
-  m_Center: {x: 0, y: 0, z: 0.03999999}
+  m_Size: {x: 0.12, y: 0.21999995, z: 0.0022150187}
+  m_Center: {x: 0, y: -1.4757635e-16, z: 0.0388925}
 --- !u!1001 &348899073
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1033,7 +1033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6aec845d6774e734abf79861b41c7a44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -316.97
+      value: -316.3
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 6aec845d6774e734abf79861b41c7a44, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6205,10 +6205,20 @@ PrefabInstance:
       propertyPath: m_StickToGroundForce
       value: 20
       objectReference: {fileID: 0}
+    - target: {fileID: 8301348219249617277, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+        type: 3}
+      propertyPath: m_JumpSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8301348219249617277, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
+        type: 3}
+      propertyPath: m_RunstepLenghten
+      value: 0.7
+      objectReference: {fileID: 0}
     - target: {fileID: 8301348219250944349, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_Height
-      value: 0.2
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8301348219256438973, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
@@ -6273,7 +6283,7 @@ PrefabInstance:
     - target: {fileID: 8301348219256438975, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8301348219256675485, guid: d23a71d629ca2cb428e58efdcf5d4c1b,
         type: 3}
