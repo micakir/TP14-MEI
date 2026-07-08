@@ -737,9 +737,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100002, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
       propertyPath: m_Name
       value: Aula_L213
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 100012, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
       propertyPath: m_IsActive
@@ -800,7 +816,7 @@ PrefabInstance:
     - target: {fileID: 2300006, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 51f674d1d0f29544288fe5da2f42e356, type: 2}
+      objectReference: {fileID: 2100000, guid: b1cca43e4ee286441939420911b8bb8f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 94e8b74e6d7e0704eb82fc32dd218979, type: 3}
 --- !u!1001 &265466540
@@ -3714,6 +3730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puelta
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 91862649e324fef4da46284db21bfd30, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 91862649e324fef4da46284db21bfd30, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.05
@@ -5125,6 +5145,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Board
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: d7406e3edb4e8414785bf3e41afaa03d, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: d7406e3edb4e8414785bf3e41afaa03d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.31
@@ -5558,7 +5582,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1372639241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8576,21 +8600,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275339764074659018, guid: 64f592d267a9dd849995d87e6bb30b24,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1.8454443
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275339764074659018, guid: 64f592d267a9dd849995d87e6bb30b24,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.18254998
-      objectReference: {fileID: 0}
-    - target: {fileID: 2275339764074659018, guid: 64f592d267a9dd849995d87e6bb30b24,
-        type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1.6107509
       objectReference: {fileID: 0}
     - target: {fileID: 2275339764074659022, guid: 64f592d267a9dd849995d87e6bb30b24,
         type: 3}
